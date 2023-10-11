@@ -4,7 +4,7 @@ from packaging.version import Version, parse
 # NB: this test doesn't work for other cases because transformer tap
 # ratio and phase angle not supported for lpf
 try:
-    # pypower is not maintained and with recent numpy verion it breaks
+    # pypower is not maintained and with recent numpy version it breaks
     from pypower.api import case30 as case
     from pypower.api import ppoption, runpf
     from pypower.ppver import ppver
